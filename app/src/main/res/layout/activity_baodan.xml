@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ay.user.views.NaviTitleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:center_title="报单"></com.ay.user.views.NaviTitleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ll_bottom_line_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="姓名" />
+
+        <EditText
+            android:id="@+id/ev_name"
+            style="@style/MyEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入姓名"
+            android:textColorHint="@color/gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ll_bottom_line_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="电话" />
+
+        <EditText
+            android:id="@+id/ev_phone"
+            style="@style/MyEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入电话"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColorHint="@color/gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ll_bottom_line_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="职业" />
+
+        <EditText
+            android:id="@+id/ev_profession"
+            style="@style/MyEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入职业"
+            android:textColorHint="@color/gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ll_bottom_line_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="资产（元）" />
+
+        <EditText
+            android:id="@+id/ev_asset"
+            style="@style/MyEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入申请金额"
+            android:inputType="number"
+            android:textColorHint="@color/gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lv_select_product"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ll_bottom_line_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="申请产品" />
+
+        <EditText
+            android:id="@+id/ev_product_name"
+            style="@style/MyEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:hint="请选择申请产品"
+            android:textColorHint="@color/gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        style="@style/btn_confirm"
+        android:enabled="false"
+        android:text="提交资料" />
+
+
+</LinearLayout>

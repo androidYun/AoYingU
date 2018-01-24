@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_name_color">#003333</color>
+    <color name="hint_text_color">#666666</color>
+    <color name="editext_text_color">#000000</color>
+    <color name="line_color">#DBDBDB</color>
+    <color name="confirm_color">#EA3D3F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="base_color">#333333</color>
+    <color name="main_head_bg">#EA3D3F</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <!--半透明顏色值-->
+    <color name="translucent">#4D000000</color>
+    <color name="backgroundColor">#f4f4f4</color>
+    <color name="dph_light_blue">#e7eefe</color>
+    <!--橘黄色-未签收-->
+    <!--主蓝色-->
+    <color name="dph_blue">#6892ed</color>
+    <color name="yellow">#ffeb3b</color>
+    <color name="red">#CD0728</color>
+    <color name="green">#14e71f</color>
+</resources>

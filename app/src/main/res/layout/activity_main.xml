@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ay.user.ui.activity.MainActivity">
+
+    <com.ay.user.views.NaviTitleView
+        android:id="@+id/navi_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:right_res="@mipmap/ic_set"
+        app:title_bg_color="@color/main_head_bg"></com.ay.user.views.NaviTitleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/main_head_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.ay.user.views.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_logo" />
+
+        <TextView
+            android:id="@+id/tv_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="早晨暮雪就乱春暖花开"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/margin_border"
+        android:layout_marginRight="@dimen/margin_border"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/ic_pd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="报单"
+            android:textColor="@color/base_color"
+            android:textSize="@dimen/default_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/margin_border"
+        android:layout_marginRight="@dimen/margin_border"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/ic_gd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="跟单"
+            android:textColor="@color/base_color"
+            android:textSize="@dimen/default_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_cp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/margin_border"
+        android:layout_marginRight="@dimen/margin_border"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/ic_cp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="产品"
+            android:textColor="@color/base_color"
+            android:textSize="@dimen/default_text_size" />
+    </LinearLayout>
+</LinearLayout>
